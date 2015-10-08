@@ -1,0 +1,5 @@
+/home/jeff/ownCloud/Schule/ProgramierenFOs/mathe_lernen/mathe_lernen/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/jeff/ownCloud/Schule/ProgramierenFOs/mathe_lernen/mathe_lernen/bin/Debug/mathe_lernen.exe.mdb
+/home/jeff/ownCloud/Schule/ProgramierenFOs/mathe_lernen/mathe_lernen/bin/Debug/mathe_lernen.exe
+/home/jeff/ownCloud/Schule/ProgramierenFOs/mathe_lernen/mathe_lernen/obj/x86/Debug/mathe_lernen.exe
+/home/jeff/ownCloud/Schule/ProgramierenFOs/mathe_lernen/mathe_lernen/obj/x86/Debug/mathe_lernen.exe.mdb
