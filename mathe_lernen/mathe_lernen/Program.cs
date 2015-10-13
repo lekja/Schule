@@ -5,7 +5,7 @@ namespace mathe_lernen
 	{
 		public static void Main (string[] args)
 		{	
-			Console.WriteLine ("Open Source projekt von Marten-Marc Droth unter der MIT Licens");
+			Console.WriteLine ("Open Source projekt von Marten-Marc Droth unter der MIT Licens.");
 			Random rnd = new Random();
 			while (true) {
 				DateTime start = DateTime.UtcNow;
@@ -14,17 +14,22 @@ namespace mathe_lernen
 				Int32 ran;
 				Int32 f = 0;
 				Int32 r = 0;
-				Console.Write ("Anzahl der aufgabe:");
-				input = Console.ReadLine ();
-				try
-				{
-					Convert.ToInt32(input);
-				}
-				catch
-				{
-					input = "10";
-				}
-				for(Int32 i = Convert.ToInt32(input);i>0;i--)
+				UInt32 temp = 0;
+				do {
+					Console.Write ("Anzahl der aufgabe:");
+					input = Console.ReadLine ();
+					try {
+						temp = Convert.ToUInt32 (input);
+					} catch {
+						temp = 0;
+					}
+					if(temp == 0)
+					{
+						Console.Clear();
+						Console.WriteLine("ERROR bitte nur positive zahlen eingeben die kleiner als 2^32 sind.");
+					}
+				} while(temp == 0);
+				for(UInt32 i = temp;i>0;i--)
 				{
 					Console.Clear();
 					ran = rnd.Next (0, 4);
