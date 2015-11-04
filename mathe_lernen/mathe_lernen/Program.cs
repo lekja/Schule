@@ -5,7 +5,7 @@ namespace mathe_lernen
 	{
 		public static void Main (string[] args)
 		{	
-			Console.WriteLine ("Open Source projekt von Marten-Marc Droth unter der MIT Licens.");
+			Console.WriteLine ("Open Source projekt von Marten-Marc Droth unter der MIT Licence.");
 			Random rnd = new Random();
 			while (true) {
 				DateTime start = DateTime.UtcNow;
@@ -54,7 +54,7 @@ namespace mathe_lernen
 						output [1] = "error";
 						break;
 					}
-					Console.WriteLine ("Aufgabe verbleibent: {0}", i);
+					Console.WriteLine ("Aufgabe verbleibent: {0}", i-1);
 					Console.Write (output [0]);
 					if (Console.ReadLine () == output [1]) {
 						Console.WriteLine ("\nRichtig");
